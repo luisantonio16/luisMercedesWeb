@@ -27,7 +27,7 @@ function RutaPrincipal() {
                         </article>
                     </div>
 
-                    <aside className= {`layout__aside ${show ? "active" : ""}`}> 
+                    <aside className= {`layout__aside  ${show ? "active" : ""}`}> 
                         <section className="aside__user-info">
                             {/* <!-- informancion general del usuario --> */}
                             <div className="user-info__general">
