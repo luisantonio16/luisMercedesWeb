@@ -6,7 +6,7 @@ import Estudio from "../paginas/curriculum.jsx";
 import luis from '../assets/Luis.jpg'
 import Portafolio from "../paginas/portafolio.jsx";
 import Contacto from "../paginas/contacto.jsx";
-import pdf from "../assets/LuisMercedesCV.pdf";
+import pdf from "../assets/LuisAntonioCV.pdf";
 
 
 
