@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;1,300&display=swap');
+
+/*Variables*/
+:root{
+    --primary-color:#3c3b86e5;
+    --secundary-color:#3c3b79;
+    --white:#fff;
+    --primary-red:#C73132;
+    --gris:#918b8bfb;
+    --background: #96939331;
+    --transparent: transparent;
+    --color-icon: #b5b6b7;
+    --color-titles: #222222;
+    --color-text: #555;
+    --color-barra:#D3D3D4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.curriculum{
+    width: 100%;
+    min-height: 100%;
+    padding: 30px;
+    position: relative;
+}
+.subheader-title{
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.curriculum-header{
+    display: block;
+    margin: 20px 0;
+}
+.header-title{
+    color: var(--color-titles);
+    font-size: 30px;
+    font-weight: 500;
+}
+.curriculum-timelines{
+    margin-top: 20px;
+}
+.curriculum-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.curriculum-left{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 58%;
+    margin-right: 1.6rem;
+}
+
+.timeline-items{
+     position: relative;
+     width: 100%;
+     margin-bottom: 1rem;
+     display: flex;
+     flex-direction: row;
+}
+.timeline-header{
+    flex-basis: 30%;
+    text-align: right;
+    padding-right: 2.5rem;
+}
+.timeline-years{
+    margin: 3px 0;
+    font-size: 1.8rem;
+}
+.timeline-company{
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.timeline-description{
+    width: 70%;
+    margin-left: 1.8rem;
+}
+
+.timeline-description p{
+    font-size: 1.5rem;
+}
+
+.timeline-divisor{
+    position: absolute;
+    top: 4px;
+    left: 28%;
+    bottom: -25px;
+    width: 1px;
+    background-color: var(--color-barra);
+}
+
+.timeline-divisor::before{
+    content: '';
+    position:absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: var(--secundary-color);
+    border-radius: 10rem;
+    margin-left: -0.8rem;
+    opacity: 0.25;
+}
+
+.timeline-divisor::after{
+    content: '';
+    position:absolute;
+    top: 4px;
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--white);
+    border: 3px solid var(--secundary-color);
+    border-radius: 10rem;
+    margin-left: -0.5rem;
+    opacity: 1;
+}
+
+.timeline-info{
+    font-size: 1rem;
+}
+
+.curriculum-experiencia{
+    margin-top: 130px;
+}
+
+.curriculum-right{
+    flex-basis: 40%;
+}
+
+
+.curriculum-skills{
+    width: 100%;
+    margin-top: 1.8rem;
+    margin-bottom: 3rem;
+}
+.subheader-subtitle{
+    color: var(--primary-color);
+}
+
+.skills-titles{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-text{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+}
+.skill-number{
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+}
+.skills-progresbar{
+    height: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    background-color: var(--white);
+    margin-bottom: 0.8rem;
+    width: 100%;
+   
+}
+.skill-porcentaje{
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    height: 0.8rem;
+    border-radius: 1rem;
+
+}
+.cincuenta{
+    width: 50%;
+}
+.sesenta{
+    width: 60%;
+}
+.sesentacinco{
+    width: 65%;
+}
+.setenta{
+    width: 70%;
+}
+.ochenta{
+    width: 80%;
+}

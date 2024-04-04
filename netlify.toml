@@ -1,0 +1,5 @@
+[[redirects]]
+
+from ="/*"
+to ="/luisWeb/index.html"
+status =200
