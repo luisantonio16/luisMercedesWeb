@@ -6,6 +6,7 @@ import Estudio from "../paginas/curriculum.jsx";
 import luis from '../assets/Luis.jpg'
 import Portafolio from "../paginas/portafolio.jsx";
 import Contacto from "../paginas/contacto.jsx";
+import pdf from "../assets/LuisMercedesCV.pdf";
 
 
 
@@ -105,7 +106,7 @@ function RutaPrincipal() {
                             </div>
 
                             <div className="user-info-buttons">
-                                <a href="#" className="user-info-btn">Descargar CV</a>
+                                <a href={pdf} className="user-info-btn" download={pdf}>Descargar CV</a>
                             </div>
 
                             <div className="user-info__footer">
