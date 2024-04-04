@@ -258,3 +258,17 @@ h1,h2,h3,h4,h5,h6{
     cursor: pointer;
     z-index: 100;
 }
+
+
+.home-titulos{
+    text-align: center;
+}
+.home-titulos h1{
+   color: var(--primary-color);
+   font-weight: 700;
+}
+.home-titulos p{
+    color: var(--color-text);
+    font-weight: 500;
+    font-size: 22px;
+ }

@@ -59,7 +59,7 @@ function Estudio() {
                                 <div className="timeline-items">
 
                                     <div className="timeline-header">
-                                        <h3 className="timeline-years">2022</h3>
+                                        <h3 className="timeline-years">2022-2024</h3>
                                         <span className="timeline-company">Archangeli Corporation</span>
                                     </div>
 

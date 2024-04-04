@@ -1,10 +1,35 @@
-import React from 'react'
-import code from "../assets/code.png"
-import mail from "../assets/mail.png"
-import gps from "../assets/location.png"
-import phone from "../assets/phone.png"
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import code from "../assets/code.png";
+import mail from "../assets/mail.png";
+import gps from "../assets/location.png";
+import phone from "../assets/phone.png";
+
 
 function contacto() {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm('service_5w3dghj', 'template_xlr52qy', form.current, {
+          publicKey: '793svBq4XcJNOxE3C',
+        })
+        .then(
+          () => {
+            alert("Se envio el mensaje Correctamente")
+            document.getElementById("form").reset();
+            
+          },
+          (error) => {
+            alert("Ocurrio un eror enviando el mensaje")
+      
+          },
+        );
+    };
+
     return (
         <>
             <section className='contacto'>
@@ -51,7 +76,7 @@ function contacto() {
                             <h3 className='form-title'>¿como puedo <span className='form-sub'>ayudarte?</span></h3>
                         </header>
 
-                        <form action="" className="form">
+                        <form action="" className="form" ref={form} onSubmit={sendEmail} id='form'>
                             <div className="form-container">
                                 <div className="form-left">
                                     <div className="form-group">
@@ -59,11 +84,11 @@ function contacto() {
                                         <label htmlFor="name" className="form-label">Nombre</label>
                                     </div>
                                     <div className="form-group">
-                                        <input type="email" className="form-input" placeholder='Email' name='name' required />
+                                        <input type="email" className="form-input" placeholder='Email' name='email' required />
                                         <label htmlFor="name" className="form-label">Email</label>
                                     </div>
                                     <div className="form-group">
-                                        <input type="text" className="form-input" placeholder='Asunto' name='name' required />
+                                        <input type="text" className="form-input" placeholder='Asunto' name='asunto' required />
                                         <label htmlFor="name" className="form-label">Asunto</label>
                                     </div>
 

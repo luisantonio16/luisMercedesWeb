@@ -46,34 +46,34 @@ function RutaPrincipal() {
                             <nav className="aside__menu">
                                 <ul className="menu__list">
                                     <li className="menu__option" >
-                                        <NavLink to="/" className={({ isActive }) => isActive ? 'active' : 'menu__link'} onClick={()=> setShow((isShow) => !isShow)} >
+                                        <NavLink to="/" className={({ isActive }) => isActive ? 'active' : 'menu__link'} onClick={()=> setShow((false))} >
                                             <i className='menu__icon bx bxs-home'></i>
                                             <span className="menu__title">Home</span>
                                         </NavLink>
                                     </li>
                                     <li className="menu__option">
-                                        <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : 'menu__link'} onClick={()=> setShow((isShow) => !isShow)}>
+                                        <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : 'menu__link'} onClick={()=> setShow((false))}>
                                             <i className='menu__icon bx bxs-user'></i>
                                             <span className="menu__title">Sobre mi</span>
                                         </NavLink>
                                     </li>
 
                                     <li className="menu__option">
-                                        <NavLink to="/estudio" className={({ isActive }) => isActive ? 'active' : 'menu__link'} onClick={()=> setShow((isShow) => !isShow)}>
+                                        <NavLink to="/estudio" className={({ isActive }) => isActive ? 'active' : 'menu__link'} onClick={()=> setShow((false))}>
                                             <i className='menu__icon bx bxs-graduation'></i>
                                             <span className="menu__title">Curriculum</span>
                                         </NavLink>
                                     </li>
 
                                     <li className="menu__option">
-                                        <NavLink to="/portafolio" className={({ isActive }) => isActive ? 'active' : 'menu__link'} onClick={()=> setShow((isShow) => !isShow)}>
+                                        <NavLink to="/portafolio" className={({ isActive }) => isActive ? 'active' : 'menu__link'} onClick={()=> setShow((false))}>
                                             <i className='menu__icon bx bxs-briefcase-alt-2' ></i>
                                             <span className="menu__title">Portafolio</span>
                                         </NavLink>
                                     </li>
 
                                     <li className="menu__option">
-                                        <NavLink to="/contacto" className={({ isActive }) => isActive ? 'active' : 'menu__link'} onClick={()=> setShow((isShow) => !isShow)}>
+                                        <NavLink to="/contacto" className={({ isActive }) => isActive ? 'active' : 'menu__link'} onClick={()=> setShow((false))}>
                                             <i className='menu__icon bx bxs-envelope'></i>
                                             <span className="menu__title">Contacto</span>
                                         </NavLink>
