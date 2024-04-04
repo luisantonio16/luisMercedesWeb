@@ -6,6 +6,8 @@ import memorygame from '../assets/memory.png'
 import space from '../assets/space.png'
 import tictac from '../assets/tic.png'
 import hodiee from '../assets/hodiee.png'
+import Archangeli from '../assets/logoNew.png'
+import happy from '../assets/logoHappyIcon.png'
 
 
 
@@ -140,6 +142,42 @@ function portafolio() {
                                 </div>
 
                                 <a href="https://hodiee.netlify.app/" target='_blank' className='card-btn'>Visitar</a>
+                            </div>
+
+                        </div>
+
+                        <div className="card">
+                            <div className="card-images">
+                                <img src={Archangeli} className='card-image' />
+                            </div>
+                            <div className='card-contenido'>
+                                <h2 className='card-title'>Archangeli Corporation</h2>
+                                <p className='card-subtitle'>Desarrolle la web de este Call Center.</p>
+                                <div className='card-icons'>
+                                    <i class='bx bxl-html5 card-icon'></i>
+                                    <i class='bx bxl-css3 card-icon'></i>
+                                    <i class='bx bxl-javascript card-icon'></i>
+                                </div>
+
+                                <a href="https://www.archangelicorp.com/" target='_blank' className='card-btn'>Visitar</a>
+                            </div>
+
+                        </div>
+
+                        <div className="card">
+                            <div className="card-images">
+                                <img src={happy} className='card-image' />
+                            </div>
+                            <div className='card-contenido'>
+                                <h2 className='card-title'>Happy Life</h2>
+                                <p className='card-subtitle'>Desarrolle esta web para este empresa que se dedica al cuidado de personas envejecientes</p>
+                                <div className='card-icons'>
+                                    <i class='bx bxl-html5 card-icon'></i>
+                                    <i class='bx bxl-css3 card-icon'></i>
+                                    <i class='bx bxl-javascript card-icon'></i>
+                                </div>
+
+                                <a href="https://happylifehomehealthagency.com/" target='_blank' className='card-btn'>Visitar</a>
                             </div>
 
                         </div>
