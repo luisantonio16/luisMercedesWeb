@@ -372,6 +372,43 @@
    display: none;
 }
 
+
+/*Responsive*/
+.contacto-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+.contacto-info{
+    width: 90%;
+    padding: 0 15px;
+    
+}
+.contacto-form{
+    width: 90%;
+    padding: 0 15px;
+  
+}
+.form-container{
+    flex-direction: column;
+    margin-top: 30px;
+}
+.form-left{
+    width: 90%;
+   
+}
+.form-right{
+    width: 90%;
+    max-width: 100%;
+  
+}
+.form-btn{
+    display: block;
+   margin: 15px auto;
+}
+
 }
 
 @media (max-width:500px) {
