@@ -13,7 +13,7 @@ function About() {
 
                 <div className="about__container-informacion">
                     <div className="about-text">
-                        <p className="about-text-parrafo">Soy Lic.Informatica, egresado de la Universidad Autonoma de Santo Domingo "UASD", Me encanta el Desarrollo de sistemas y paginas web, tengo 22 Años de edad, actualmente vivo en la ciudad de santo domingo, Republica Dominicana.
+                        <p className="about-text-parrafo">Soy Lic.Informatica, egresado de la Universidad Autonoma de Santo Domingo "UASD", Me encanta el Desarrollo de sistemas y paginas web, tengo 24 Años de edad, actualmente vivo en la ciudad de santo domingo, Republica Dominicana.
                         </p>
 
                     </div>
@@ -21,7 +21,7 @@ function About() {
                         <ul className="about-info-list">
                             <li className="info-list">
                                 <span className="info-list-title">Edad</span>
-                                <span className="info-list-value">22</span>
+                                <span className="info-list-value">24</span>
 
                             </li>
                             <li className="info-list">
