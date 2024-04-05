@@ -40,7 +40,14 @@
     border-radius: 5px;
     padding: 20px 10px;
     margin-bottom: 10px;
+    opacity: 1;
+transition: opacity 1s ease 0s;
+cursor: pointer;
 }
+.contacto-data:hover{
+    opacity: 0.6;
+}
+
 .contacto-img{
     width: 55px;
 }
