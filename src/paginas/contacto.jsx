@@ -45,12 +45,12 @@ function contacto() {
                     <section className='contacto-info'>
                         <div className='contacto-data'>
                             <img className='contacto-img' src={gps} alt="" />
-                            <h2 className='contacto-title'>Location</h2>
+                            <h2 className='contacto-title'>Republica Dominicana</h2>
                         </div>
 
                         <div className='contacto-data'>
                             <img className='contacto-img' src={phone} alt="" />
-                            <h2 className='contacto-title'>+1829 302 6793</h2>
+                            <h2 className='contacto-title'>829 302 6793</h2>
                         </div>
 
                         <div className='contacto-data'>
@@ -59,9 +59,8 @@ function contacto() {
                         </div>
 
                         <div className='contacto-data'>
-
                             <img className='contacto-img' src={code} alt="" />
-                            <h2 className='contacto-title'>Location</h2>
+                            <h2 className='contacto-title'>Desarrollador Software</h2>
                         </div>
 
                     </section>
