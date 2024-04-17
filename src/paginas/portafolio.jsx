@@ -8,6 +8,7 @@ import tictac from '../assets/tic.png'
 import hodiee from '../assets/hodiee.png'
 import Archangeli from '../assets/logoNew.png'
 import happy from '../assets/logoHappyIcon.png'
+import hsj from '../assets/hsj.png'
 
 
 
@@ -178,6 +179,24 @@ function portafolio() {
                                 </div>
 
                                 <a href="https://happylifehomehealthagency.com/" target='_blank' className='card-btn'>Visitar</a>
+                            </div>
+
+                        </div>
+
+                        <div className="card">
+                            <div className="card-images">
+                                <img src={hsj} className='card-image' />
+                            </div>
+                            <div className='card-contenido'>
+                                <h2 className='card-title'>Hsj Trucking</h2>
+                                <p className='card-subtitle'>Una web para un dealers</p>
+                                <div className='card-icons'>
+                                    <i class='bx bxl-html5 card-icon'></i>
+                                    <i class='bx bxl-css3 card-icon'></i>
+                                    <i class='bx bxl-javascript card-icon'></i>
+                                </div>
+
+                                <a href="https://hsjtrucking.netlify.app/" target='_blank' className='card-btn'>Visitar</a>
                             </div>
 
                         </div>
