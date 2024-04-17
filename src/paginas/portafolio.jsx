@@ -8,7 +8,7 @@ import tictac from '../assets/tic.png'
 import hodiee from '../assets/hodiee.png'
 import Archangeli from '../assets/logoNew.png'
 import happy from '../assets/logoHappyIcon.png'
-import hsj from '../assets/hsj.png'
+import hsj from '../assets/hsl.png'
 
 
 
