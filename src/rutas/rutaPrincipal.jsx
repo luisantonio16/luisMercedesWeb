@@ -3,7 +3,7 @@ import { Routes, BrowserRouter, Route, Link, NavLink } from "react-router-dom"
 import Home from "../paginas/home.jsx"
 import About from "../paginas/about.jsx"
 import Estudio from "../paginas/curriculum.jsx";
-import luis from '../assets/Luis.jpg'
+import luis from '../assets/luis2.jpg'
 import Portafolio from "../paginas/portafolio.jsx";
 import Contacto from "../paginas/contacto.jsx";
 import pdf from "../assets/LuisAntonioCV.pdf";
