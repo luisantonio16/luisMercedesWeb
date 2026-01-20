@@ -9,6 +9,7 @@ import hodiee from '../assets/hodiee.png'
 import Archangeli from '../assets/logoNew.png'
 import happy from '../assets/logoHappyIcon.png'
 import hsj from '../assets/hsl.png'
+import madeira from '../assets/LogoMadeira.png'
 
 
 
@@ -189,7 +190,7 @@ function portafolio() {
                             </div>
                             <div className='card-contenido'>
                                 <h2 className='card-title'>Hsj Trucking</h2>
-                                <p className='card-subtitle'>Una web para un dealers</p>
+                                <p className='card-subtitle'>Una web para un dealers en miami.</p>
                                 <div className='card-icons'>
                                     <i class='bx bxl-html5 card-icon'></i>
                                     <i class='bx bxl-css3 card-icon'></i>
@@ -197,6 +198,41 @@ function portafolio() {
                                 </div>
 
                                 <a href="https://hsjtrucking.netlify.app/" target='_blank' className='card-btn'>Visitar</a>
+                            </div>
+
+                        </div>
+
+                         <div className="card">
+                            <div className="card-info">
+                               <h2>Web Site</h2>
+                            </div>
+                            <div className='card-contenido'>
+                                <h2 className='card-title'>SQTS</h2>
+                                <p className='card-subtitle'>Lading page</p>
+                                <div className='card-icons'>
+                                    <i class='bx bxl-html5 card-icon'></i>
+                                    <i class='bx bxl-css3 card-icon'></i>
+                                    <i class='bx bxl-javascript card-icon'></i>
+                                </div>
+
+                                <a href="https://sqts.netlify.app/" target='_blank' className='card-btn'>Visitar</a>
+                            </div>
+
+                        </div>
+
+                         <div className="card">
+                            <div className="card-info">
+                              <img src={madeira} className='card-image' />
+                            </div>
+                            <div className='card-contenido'>
+                                <h2 className='card-title'>Madeira Tech</h2>
+                                <p className='card-subtitle'>Lading page</p>
+                                <div className='card-icons'>
+                                     <i className='bx bxl-react card-icon'></i>
+                                    <i class='bx bxl-javascript card-icon'></i>
+                                </div>
+
+                                <a href="https://linkpruebamadeiratech.netlify.app/" target='_blank' className='card-btn'>Visitar</a>
                             </div>
 
                         </div>
