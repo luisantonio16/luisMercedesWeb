@@ -38,7 +38,7 @@ function RutaPrincipal() {
                                 </div>
 
                                 <h2 className="user-info__name">Luis Mercedes</h2>
-                                <h4 className="user-info__trabajo">Desarrollador Softwareeee</h4>
+                                <h4 className="user-info__trabajo">Desarrollador Software</h4>
 
                             </div>
 
